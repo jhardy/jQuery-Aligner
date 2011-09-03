@@ -17,7 +17,12 @@ To toggle the canvases visibility, simple push the 'g' to show the grid, 'b' to 
 
 ##Usage
 
-Obviously you will need jQuery to use this plugin, so be sure you have that before using this plugin. To create the grid and baseline canvases, call the .aligner() method on the grid container element with your grid and baseline dimensions, the plugin will overlay the generated grid on top of the container. 
+
+Obviously you will need jQuery to use this plugin, so be sure you have that before using this plugin. 
+
+Include the jquery.aligner.js and aligner.css files
+
+To create the grid and baseline canvases, call the .aligner() method on the grid container element with your grid and baseline dimensions, the plugin will overlay the generated grid on top of the container. 
 
     $("#container").aligner({
       columnWidth : 63,
