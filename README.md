@@ -4,11 +4,14 @@ jQuery Aligner
 
 ** This plugin is still in its very early stages, there is probably lots of bugs to be found **
 
+See aligner in action with this [quick demo](http://dl.dropbox.com/u/1274637/aligner-demo/index.html)
+
 Aligner is a jQuery plugin to aid in aligning elements to a grid and baseline in the browsers. The plugin adds a few html canvas elements to your page, one is for a grid overlay, one  for a baseline overlay and one for a ruler and guides. You specify the column width, gutter width, column count and baseline height, Aligner then draws the grid and baseline onto the canvases.
 
 All the aligner options can be set via javascript (see usage example below), or you can press the 'a' key and set all the options from the aligner menu panels.
 
 To toggle the canvases visibility, simple push the 'g' to show the grid, 'b' to show the baseline and 'r' to show the rulers and guides. To add a guide simply click on the ruler area and drag the guide down similar to photoshop. 
+
 
 
 
